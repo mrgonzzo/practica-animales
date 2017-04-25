@@ -1,0 +1,43 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Wikicountry - Angular</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="theme-color" content="#637082">
+    <link rel="stylesheet" href="app/css/app.css">
+
+</head>
+
+<body ng-app="app" ng-strict-di>
+    <script src="vendor/angular.min.js"></script>
+    <script src="vendor/angular-ui-router.min.js"></script>
+    <!-- our app -->
+    <script src="app/js/app.js"></script>
+    <script src="app/services/animal-factory.js"></script>
+    <script src="app/components/commons/header/header.js"></script>
+    <script src="app/components/commons/footer/footer.js"></script>
+    <script src="app/components/mainview/mainview.js"></script>
+    <script src="app/components/mainview/listanimals/listanimals.js"></script>
+    <script src="app/components/mainview/cardanimals/cardanimals.js"></script>
+    <script src="app/components/mainview/display/display.js"></script>
+    <script src="app/components/detailview/detailview.js"></script>
+    <script src="app/components/aboutus/buttonus/buttonus.js"></script>
+    <script src="app/components/aboutus/aboutus.js"></script>
+    <script src="app/components/crudview/crud.js"></script>
+
+    <!-- Put your HTML code here -->
+    <!-- <comp-mainview></comp-mainview> con un router ya no lo pegamos a fuego, y tambien sacamos del componente los common header footer -->
+    <comp-header></comp-header>
+    <hr>
+    <ui-view></ui-view>
+    <hr>
+    <comp-footer></comp-footer>
+
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+{
+  "name": "practica-animales",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrgonzzo/practica-animales.git"
+  },
+  "author": "mrgonzzo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mrgonzzo/practica-animales/issues"
+  },
+  "homepage": "https://github.com/mrgonzzo/practica-animales#readme",
+  "dependencies": {
+    "angular-ui-router": "^0.4.2"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.8",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-eslint": "^3.0.1"
+  }
+}
